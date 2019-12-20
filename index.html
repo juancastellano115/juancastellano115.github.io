@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Juan Castellano</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2f70a03fc0.js" crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+</head>
+
+<body>
+    <div class="loader-wrapper">
+        <div class="loader">
+            <img src="Infinity-1s-200px.svg" alt="loading...">
+        </div>
+    </div>
+    
+
+    <div class="seccion">
+        <div class="cabecera">
+            <object id="JC" type="image/svg+xml" data="">
+                Your browser does not support SVG
+              </object>
+              <svg class="flecha" xmlns="http://www.w3.org/2000/svg" width="19" height="40" viewBox="0 0 19 40"
+                fill="none" stroke="#b648f2" stroke-width="2">
+                <path d="M1 29.8l8.6 8.6L18 30m-8.5 8.5V0"></path>
+            </svg>
+        </div>
+    </div>
+    <div class="separator"></div>
+    <img src="undraw_to_the_moon_v1mv.svg" alt="">
+
+    <div data-aos="fade-right" class="creaconstruye">
+        <h2>Crea, construye, despega <i id="cohete" class="fas fa-rocket"></i></h2>
+    </div>
+   
+    <div class="seccion">
+            <div class="contenedorCards">
+             <div data-aos="flip-up" data-aos-delay="300"  class="card">
+                    <h3>Diseñador</h3>
+                <p>Manejo todo tipo de programas para el sector visual. Illustrator, photoshop, After Effects, blender(3D) entre otros.</p>
+             </div>
+             <div data-aos="flip-up" data-aos-delay="500" class="card" >
+                    <h3>Desarrollador fullStack</h3>
+                <p>JS puro, control del backend con Node y php, plataformas móviles(Android, IOS) Flutter. </p>
+             </div>
+            </div>
+            <div data-aos="fade-right" class="creaconstruye">
+                    <h2>Diseñador, desarrollador full stack <i id="sqr" class="fas fa-vector-square"></i></h2>
+                </div>
+            <img src="undraw_Outer_space_drqu.svg" alt="">
+    </div>
+    <div class="seccion">
+        <div class="creaconstruye">
+            <h2>Encuéntrame</h2>
+        </div>
+        <div class="iconos">
+            <div class="icono">
+               <a href="https://www.instagram.com/alquitrann/" target="_blank"><i class="fab fa-instagram"></i></a> 
+                <p>Instagram</p>
+            </div>
+            
+            <div class="icono">
+               <a href="https://twitter.com/skyandbrushes" target="_blank"><i class="fab fa-twitter"></i></a> 
+                <p>Twitter</p>
+            </div>
+
+            <div class="icono">
+               <a href="https://github.com/juancastellano115" target="_blank"><i class="fab fa-github"></i></a> 
+                <p>Github</p>
+            </div>
+
+        </div>
+
+        <div class="photon"></div>
+
+        <div class="writer">
+            <p class="type"></p>
+        </div>
+
+        <div class="separator"></div>
+        <div class="contenedorestrella">
+            <div class="creaconstruye">
+                <h2>Mis tecnologías</h2>
+            </div>
+        </div>
+        
+        <div class="iconos">
+            <i class="fab fa-python"></i>
+            <i class="fab fa-js"></i>
+            <i class="fab fa-node"></i>
+            <i class="fab fa-php"></i>
+         
+        </div>
+        <div class="separator"></div>
+        <div id="particulas">
+            <footer>
+                © 2019 Juan Castellano.  All rights reserved.
+            </footer>
+        </div>
+        
+    </div>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    $(window).on('load',()=>{$('.loader-wrapper').css("transform","translate(0,-100%)");$('.flecha').css("opacity","1");$('#JC').attr('data','juan_animated2.svg')})
+  </script>
+ <script src="particles.js"></script>
+ <script> particlesJS.load("particulas", 'particlesjs-config.json');
+ var options = {
+  strings: ['Soy un <i>desarrollador web</i>', 'Soy un diseñador gráfico','Soy un frontend developer','Soy un backend developer'],
+  typeSpeed: 70,
+  backSpeed: 40,
+  loop: true,
+  backDelay: 1000,
+};
+
+var typed = new Typed('.type', options);
+ </script>
+
+</body>
+
+</html>
